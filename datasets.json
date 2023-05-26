@@ -2,6 +2,16 @@
   {
     "owner": "luccasmmg",
     "branch": "main",
+    "name": "CO2 Fossil by Nation",
+    "description": "Per Country CO2 Emissions from fossil-fuels annually since 1751 till 2014.",
+    "repo": "climate-change-data",
+    "files": ["co2-fossil-by-nation/data/fossil-fuel-co2-emissions-by-nation_csv.csv"],
+    "readme": "co2-fossil-by-nation/README.md",
+    "datapackage": "co2-fossil-by-nation/datapackage.json"
+  },
+  {
+    "owner": "luccasmmg",
+    "branch": "main",
     "name": "CO2 Changes",
     "repo": "climate-change-data",
     "description": "CO2 PPM - Trends in Atmospheric Carbon Dioxide. Data are sourced from the US Government's Earth System Research Laboratory, Global Monitoring Division. Two main series are provided: the Mauna Loa series (which has the longest continuous series since 1958) and a Global Average series (a global average over marine surface sites).",
@@ -10,15 +20,5 @@
     ],
     "readme": "co2-ppm/README.md",
     "datapackage": "co2-ppm/datapackage.json"
-  },
-  {
-    "owner": "luccasmmg",
-    "branch": "main",
-    "name": "CO2 Fossil by Nation",
-    "description": "Per Country CO2 Emissions from fossil-fuels annually since 1751 till 2014.",
-    "repo": "climate-change-data",
-    "files": ["co2-fossil-by-nation/data/fossil-fuel-co2-emissions-by-nation_csv.csv"],
-    "readme": "co2-fossil-by-nation/README.md",
-    "datapackage": "co2-fossil-by-nation/datapackage.json"
   }
 ]
