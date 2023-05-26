@@ -68,7 +68,7 @@ export default function ProjectPage({ project }) {
           <h2 className="uppercase font-black">Data Previews</h2>
           <div>
             {project.files.map((file) => (
-              <FlatUiTable url={file.download_url} />
+              <FlatUiTable key={file.download_url} url={file.download_url} />
             ))}
           </div>
           <hr />
