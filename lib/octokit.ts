@@ -99,6 +99,7 @@ export async function getProjectMetadata(
     });
     return response.data;
   } catch (error) {
+    console.log(error)
     throw new Error(
       "Couldn't get project metadata please make sure that you are pointing to a valid repo"
     );
